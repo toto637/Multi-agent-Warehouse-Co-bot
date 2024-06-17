@@ -1,0 +1,20 @@
+[0.027s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.062s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.090s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_firmware
+[0.105s] -- Install configuration: ""
+[0.106s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/package_run_dependencies/robot_firmware
+[0.106s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/parent_prefix_path/robot_firmware
+[0.106s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.sh
+[0.106s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.dsv
+[0.106s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.sh
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.dsv
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.bash
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.sh
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.zsh
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.dsv
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.dsv
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/packages/robot_firmware
+[0.107s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig.cmake
+[0.108s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig-version.cmake
+[0.108s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.xml
+[0.135s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_firmware

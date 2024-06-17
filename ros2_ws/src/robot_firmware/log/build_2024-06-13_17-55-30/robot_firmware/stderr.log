@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:85 (file):
+  file INSTALL cannot find
+  "/home/adhamwalaa/ros2_ws/src/robot_firmware/config": No such file or
+  directory.
+
+[0m

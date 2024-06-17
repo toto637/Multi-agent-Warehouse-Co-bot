@@ -1,0 +1,10 @@
+[0.035s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.124s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[0.154s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krobot_firmware/autonav_interface.hpp: No such file or directory
+[0.154s]     1 | #include [01;31m[K"robot_firmware/autonav_interface.hpp"[m[K
+[0.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.154s] compilation terminated.
+[0.155s] gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+[0.155s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+[0.155s] gmake: *** [Makefile:146: all] Error 2
+[0.186s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12

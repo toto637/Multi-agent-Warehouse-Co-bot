@@ -1,0 +1,3 @@
+Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_nav -- -j12 -l12
+Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_nav -- -j12 -l12
+Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_nav

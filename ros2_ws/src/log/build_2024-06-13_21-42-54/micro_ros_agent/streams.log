@@ -1,0 +1,4 @@
+[0.053s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/micro_ros_agent -- -j12 -l12
+[0.117s] [100%] Built target micro_ros_agent
+[0.144s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/micro_ros_agent -- -j12 -l12
+[0.210s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/micro_ros_agent

@@ -1,0 +1,131 @@
+[0.034s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target robot_firmware[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[2.255s] In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.255s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:41:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.255s]    41 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat64[m[K>::SharedPtr left_cmd_publisher_;
+[2.255s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.255s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:41:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.256s]    41 |   rclcpp::Publisher<std_msgs::msg::Float64[01;31m[K>[m[K::SharedPtr left_cmd_publisher_;
+[2.256s]       |                                           [01;31m[K^[m[K
+[2.256s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:41:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.256s]    41 |   rclcpp::Publisher<std_msgs::msg::Float64>::[01;31m[KSharedPtr[m[K left_cmd_publisher_;
+[2.256s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.256s]       |                                                       [32m[K;[m[K
+[2.258s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:41:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_cmd_publisher_[m[K’ does not name a type
+[2.258s]    41 |   rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr [01;31m[Kleft_cmd_publisher_[m[K;
+[2.259s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.259s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:42:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.259s]    42 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat64[m[K>::SharedPtr right_cmd_publisher_;
+[2.259s]       |                                    [01;31m[K^~~~~~~[m[K
+[2.259s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:42:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.259s]    42 |   rclcpp::Publisher<std_msgs::msg::Float64[01;31m[K>[m[K::SharedPtr right_cmd_publisher_;
+[2.259s]       |                                           [01;31m[K^[m[K
+[2.259s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:42:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.259s]    42 |   rclcpp::Publisher<std_msgs::msg::Float64>::[01;31m[KSharedPtr[m[K right_cmd_publisher_;
+[2.259s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.260s]       |                                                       [32m[K;[m[K
+[2.260s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:42:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint robot_firmware::DiffBotSystemHardware::SharedPtr[m[K’
+[2.260s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:41:46:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint robot_firmware::DiffBotSystemHardware::SharedPtr[m[K’
+[2.260s]    41 |   rclcpp::Publisher<std_msgs::msg::Float64>::[01;36m[KSharedPtr[m[K left_cmd_publisher_;
+[2.260s]       |                                              [01;36m[K^~~~~~~~~[m[K
+[2.262s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:42:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_cmd_publisher_[m[K’ does not name a type
+[2.262s]    42 |   rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr [01;31m[Kright_cmd_publisher_[m[K;
+[2.262s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.273s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()[m[K’:
+[2.273s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_cmd_publisher_[m[K’ was not declared in this scope
+[2.273s]    19 |   [01;31m[Kleft_cmd_publisher_[m[K = node_->create_publisher<std_msgs::msg::Float64>("/motor/left_cmd", 10);
+[2.273s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.273s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:19:64:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.273s]    19 |   left_cmd_publisher_ = node_->create_publisher<std_msgs::msg::[01;31m[KFloat64[m[K>("/motor/left_cmd", 10);
+[2.273s]       |                                                                [01;31m[K^~~~~~~[m[K
+[2.273s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:19:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)[m[K’
+[2.274s]    19 |   left_cmd_publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::Float64>("/motor/left_cmd", 10)[m[K;
+[2.274s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.274s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.274s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.274s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:4[m[K,
+[2.274s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.274s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.274s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.274s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.274s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.274s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:19:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.275s]    19 |   left_cmd_publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::Float64>("/motor/left_cmd", 10)[m[K;
+[2.275s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.282s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_cmd_publisher_[m[K’ was not declared in this scope
+[2.282s]    20 |   [01;31m[Kright_cmd_publisher_[m[K = node_->create_publisher<std_msgs::msg::Float64>("/motor/right_cmd", 10);
+[2.282s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.282s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:65:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.283s]    20 |   right_cmd_publisher_ = node_->create_publisher<std_msgs::msg::[01;31m[KFloat64[m[K>("/motor/right_cmd", 10);
+[2.283s]       |                                                                 [01;31m[K^~~~~~~[m[K
+[2.283s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [17], int)[m[K’
+[2.283s]    20 |   right_cmd_publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::Float64>("/motor/right_cmd", 10)[m[K;
+[2.283s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.283s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.283s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:4[m[K,
+[2.284s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.284s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.284s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.284s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.284s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.284s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.284s]    20 |   right_cmd_publisher_ = [01;31m[Knode_->create_publisher<std_msgs::msg::Float64>("/motor/right_cmd", 10)[m[K;
+[2.284s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.292s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.292s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:103:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+[2.292s]   103 | void [01;31m[KDiffBotSystemHardware[m[K::processFeedback(const std_msgs::msg::Int64MultiArray::SharedPtr msg)
+[2.292s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.292s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:103:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+[2.292s] In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.292s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ defined here
+[2.292s]    22 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+[2.292s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.294s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robot_firmware::DiffBotSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.294s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151:55:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.294s]   151 |   auto left_cmd_msg = std::make_shared<std_msgs::msg::[01;31m[KFloat64[m[K>();
+[2.294s]       |                                                       [01;31m[K^~~~~~~[m[K
+[2.294s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.294s]   151 |   auto left_cmd_msg = [01;31m[Kstd::make_shared<std_msgs::msg::Float64>()[m[K;
+[2.294s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.294s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.294s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:4[m[K,
+[2.295s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.295s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.295s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.295s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.295s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.295s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.295s]   151 |   auto left_cmd_msg = [01;31m[Kstd::make_shared<std_msgs::msg::Float64>()[m[K;
+[2.295s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.303s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_cmd_publisher_[m[K’ was not declared in this scope
+[2.303s]   153 |   [01;31m[Kleft_cmd_publisher_[m[K->publish(*left_cmd_msg);
+[2.303s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.303s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:155:56:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.304s]   155 |   auto right_cmd_msg = std::make_shared<std_msgs::msg::[01;31m[KFloat64[m[K>();
+[2.304s]       |                                                        [01;31m[K^~~~~~~[m[K
+[2.304s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:155:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.304s]   155 |   auto right_cmd_msg = [01;31m[Kstd::make_shared<std_msgs::msg::Float64>()[m[K;
+[2.304s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.304s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.304s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:4[m[K,
+[2.304s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.304s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.304s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.304s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.305s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.305s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:155:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.305s]   155 |   auto right_cmd_msg = [01;31m[Kstd::make_shared<std_msgs::msg::Float64>()[m[K;
+[2.305s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.313s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_cmd_publisher_[m[K’ was not declared in this scope
+[2.313s]   157 |   [01;31m[Kright_cmd_publisher_[m[K->publish(*right_cmd_msg);
+[2.313s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.848s] gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+[2.848s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+[2.848s] gmake: *** [Makefile:146: all] Error 2
+[2.850s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12

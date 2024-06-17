@@ -1,0 +1,150 @@
+[0.028s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target robot_firmware[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[2.241s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ does not name a type
+[2.242s]    16 | [01;31m[KDiffBotSystemHardware[m[K::DiffBotSystemHardware()
+[2.242s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.244s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:30:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ does not name a type
+[2.244s]    30 | [01;31m[KDiffBotSystemHardware[m[K::~DiffBotSystemHardware() {}
+[2.244s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.244s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:32:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.244s]    32 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_init(
+[2.245s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.245s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn robot_firmware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[2.245s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:35:51:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’ without object
+[2.245s]    35 |   if ([01;31m[Khardware_interface::SystemInterface::on_init(info)[m[K != hardware_interface::CallbackReturn::SUCCESS) {
+[2.245s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.249s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[2.249s]    39 |   [01;31m[Khw_positions_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[2.250s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.252s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:39:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+[2.252s]    39 |   hw_positions_.resize([01;31m[Kinfo_[m[K.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[2.252s]       |                        [01;31m[K^~~~~[m[K
+[2.252s]       |                        [32m[Kinfo[m[K
+[2.257s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[2.257s]    40 |   [01;31m[Khw_velocities_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[2.257s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.261s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[2.261s]    41 |   [01;31m[Khw_commands_[m[K.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+[2.261s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[2.261s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.261s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:46:49:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.261s]    46 | std::vector<hardware_interface::StateInterface> [01;31m[KDiffBotSystemHardware[m[K::export_state_interfaces()
+[2.261s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.266s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::StateInterface> robot_firmware::export_state_interfaces()[m[K’:
+[2.266s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[2.266s]    49 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[2.266s]       |                         [01;31m[K^~~~~[m[K
+[2.270s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:51:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[2.270s]    51 |       info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_positions_[m[K[i]));
+[2.270s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:53:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[2.274s]    53 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_velocities_[m[K[i]));
+[2.274s]       |                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.274s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.274s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:59:51:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.274s]    59 | std::vector<hardware_interface::CommandInterface> [01;31m[KDiffBotSystemHardware[m[K::export_command_interfaces()
+[2.274s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.279s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::CommandInterface> robot_firmware::export_command_interfaces()[m[K’:
+[2.279s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:62:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+[2.279s]    62 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++) {
+[2.279s]       |                         [01;31m[K^~~~~[m[K
+[2.283s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:64:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[2.283s]    64 |       info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_commands_[m[K[i]));
+[2.283s]       |                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[2.283s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.283s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:70:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.283s]    70 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_activate(
+[2.283s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.288s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::CallbackReturn robot_firmware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.288s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:76:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[2.288s]    76 |   for (auto i = 0u; i < [01;31m[Khw_positions_[m[K.size(); i++) {
+[2.288s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.292s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[2.292s]    79 |       [01;31m[Khw_velocities_[m[K[i] = 0;
+[2.292s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.296s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:80:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[2.296s]    80 |       [01;31m[Khw_commands_[m[K[i] = 0;
+[2.296s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[2.297s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.297s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:89:36:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.297s]    89 | hardware_interface::CallbackReturn [01;31m[KDiffBotSystemHardware[m[K::on_deactivate(
+[2.297s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.297s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:99:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.298s]    99 | void [01;31m[KDiffBotSystemHardware[m[K::processFeedback(const std_msgs::msg::Float32MultiArray::SharedPtr msg)
+[2.298s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.305s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Kvoid robot_firmware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.305s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:108:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_left_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_left[m[K’?
+[2.306s]   108 |     if (current_position_left - [01;31m[Kprev_position_left_[m[K > 180) {
+[2.306s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.306s]       |                                 [32m[Kcurrent_position_left[m[K
+[2.311s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:114:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_right_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_right[m[K’?
+[2.311s]   114 |     if (current_position_right - [01;31m[Kprev_position_right_[m[K > 180) {
+[2.311s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.311s]       |                                  [32m[Kcurrent_position_right[m[K
+[2.316s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:120:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+[2.316s]   120 |     [01;31m[Khw_positions_[m[K[0] = prev_position_left_ + current_position_left;
+[2.316s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.322s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:120:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_left_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_left[m[K’?
+[2.322s]   120 |     hw_positions_[0] = [01;31m[Kprev_position_left_[m[K + current_position_left;
+[2.322s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.322s]       |                        [32m[Kcurrent_position_left[m[K
+[2.327s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:121:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_right_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_right[m[K’?
+[2.327s]   121 |     hw_positions_[1] = [01;31m[Kprev_position_right_[m[K + current_position_right;
+[2.327s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.327s]       |                        [32m[Kcurrent_position_right[m[K
+[2.331s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:123:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_[m[K’ was not declared in this scope
+[2.331s]   123 |     [01;31m[Khw_velocities_[m[K[0] = velocity_left;
+[2.331s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.331s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.332s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:131:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.332s]   131 | hardware_interface::return_type [01;31m[KDiffBotSystemHardware[m[K::read(
+[2.332s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.334s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::return_type robot_firmware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.334s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:134:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[2.334s]   134 |   rclcpp::spin_some([01;31m[Knode_[m[K);
+[2.334s]       |                     [01;31m[K^~~~~[m[K
+[2.334s]       |                     [32m[Kmode_t[m[K
+[2.334s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.334s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:138:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ has not been declared
+[2.334s]   138 | hardware_interface::return_type [01;31m[KDiffBotSystemHardware[m[K::write(
+[2.334s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.337s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Khardware_interface::return_type robot_firmware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.337s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:142:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_commands_[m[K’ was not declared in this scope
+[2.338s]   142 |   cmd_msg->data.push_back([01;31m[Khw_commands_[m[K[0]);  // left motor command
+[2.338s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[2.340s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:144:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.340s]   144 |   [01;31m[Kcmd_publisher_[m[K->publish(*cmd_msg);
+[2.340s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.341s]       |   [32m[Krmw_publisher_t[m[K
+[2.349s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[2.350s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[2.350s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151[m[K:
+[2.350s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[2.350s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:152:40:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ in namespace ‘[01m[Krobot_firmware[m[K’ does not name a type
+[2.350s]   152 | PLUGINLIB_EXPORT_CLASS(robot_firmware::[01;31m[KDiffBotSystemHardware[m[K, hardware_interface::SystemInterface)
+[2.350s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.356s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[2.357s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:152:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[2.357s]   152 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+[2.357s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.357s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:152:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [38], const char [36])[m[K’
+[2.357s]   152 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+[2.357s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.357s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[2.357s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[2.357s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151[m[K:
+[2.358s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[2.358s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[2.358s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.358s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.358s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[2.358s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[2.358s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:151[m[K:
+[2.358s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:152:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.358s]   152 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+[2.359s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.832s] gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+[2.832s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+[2.832s] gmake: *** [Makefile:146: all] Error 2
+[2.834s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12

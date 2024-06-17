@@ -1,0 +1,90 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1d26740be0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1d26740670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1d26740670>>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adhamwalaa/ros2_ws/src/robot_firmware'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'robot_firmware'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adhamwalaa/ros2_ws/src/install/my_robot_hardware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.303s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adhamwalaa/ros2_ws/src/install/my_robot_hardware' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/adhamwalaa/ros2_ws/src/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/humble
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'robot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'robot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware', 'merge_install': False, 'path': '/home/adhamwalaa/ros2_ws/src/robot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adhamwalaa/ros2_ws/src/robot_firmware' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adhamwalaa/ros2_ws/src/robot_firmware'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adhamwalaa/ros2_ws/src/robot_firmware -DCMAKE_INSTALL_PREFIX=/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/adhamwalaa/ros2_ws/src/robot_firmware -DCMAKE_INSTALL_PREFIX=/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware
+[2.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware -- -j12 -l12
+[2.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware -- -j12 -l12
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware
+[2.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/robot_firmware/build/robot_firmware
+[2.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_firmware)
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware' for CMake module files
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware' for CMake config files
+[2.911s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/lib'
+[2.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_firmware', 'ld_library_path_lib')
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/hook/ld_library_path_lib.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/hook/ld_library_path_lib.dsv'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/hook/ld_library_path_lib.sh'
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/bin'
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/lib/pkgconfig/robot_firmware.pc'
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/lib/python3.10/site-packages'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/bin'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/package.ps1'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/package.dsv'
+[2.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/package.sh'
+[2.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/package.bash'
+[2.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/robot_firmware/package.zsh'
+[2.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adhamwalaa/ros2_ws/src/robot_firmware/install/robot_firmware/share/colcon-core/packages/robot_firmware)
+[2.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.929s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.934s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.944s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/local_setup.ps1'
+[2.945s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/_local_setup_util_ps1.py'
+[2.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/setup.ps1'
+[2.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/local_setup.sh'
+[2.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/_local_setup_util_sh.py'
+[2.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/setup.sh'
+[2.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/local_setup.bash'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/setup.bash'
+[2.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/local_setup.zsh'
+[2.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adhamwalaa/ros2_ws/src/robot_firmware/install/setup.zsh'

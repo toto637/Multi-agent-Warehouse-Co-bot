@@ -1,0 +1,15 @@
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/ament_index/resource_index/package_run_dependencies/robot_local
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/ament_index/resource_index/parent_prefix_path/robot_local
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/environment/ament_prefix_path.sh
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/environment/ament_prefix_path.dsv
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/environment/path.sh
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/environment/path.dsv
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/local_setup.bash
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/local_setup.sh
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/local_setup.zsh
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/local_setup.dsv
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/package.dsv
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/ament_index/resource_index/packages/robot_local
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/cmake/robot_localConfig.cmake
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/cmake/robot_localConfig-version.cmake
+/home/adhamwalaa/ros2_ws/src/install/robot_local/share/robot_local/package.xml

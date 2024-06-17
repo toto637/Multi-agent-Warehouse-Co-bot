@@ -1,0 +1,10 @@
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:104:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHsardware[m[K’ has not been declared
+  104 | void [01;31m[KDiffBotSystemHsardware[m[K::processFeedback(const std_msgs::msg::Int64MultiArray::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In function ‘[01m[Kvoid robot_firmware::processFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_[m[K’ was not declared in this scope
+  107 |     [01;31m[Khw_positions_[m[K[0] = ((msg->data[0] * 2.0 * M_PI) / 4096.0) * 0.033;  // left_wheel_joint position cumilative
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

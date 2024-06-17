@@ -1,0 +1,41 @@
+[0.027s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target robot_firmware[0m
+[0.073s] gmake[2]: Warning: File '/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp' has modification time 7781 s in the future
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[8.608s] [100%] [32m[1mLinking CXX shared library librobot_firmware.so[0m
+[9.063s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[9.070s] [100%] Built target robot_firmware
+[9.080s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[9.101s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_firmware
+[9.109s] -- Install configuration: ""
+[9.110s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/lib/librobot_firmware.so
+[9.116s] -- Set runtime path of "/home/adhamwalaa/ros2_ws/src/install/robot_firmware/lib/librobot_firmware.so" to ""
+[9.116s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include
+[9.116s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include/robot_firmware
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include/robot_firmware/diffbot_system.hpp
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/launch
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/launch/robot_bringup.launch.py
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/config
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/diffbot_system_plugin.xml
+[9.117s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/library_path.sh
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/library_path.dsv
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/package_run_dependencies/robot_firmware
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/parent_prefix_path/robot_firmware
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.sh
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.dsv
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.sh
+[9.118s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.dsv
+[9.119s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.bash
+[9.119s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.sh
+[9.120s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.zsh
+[9.120s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.dsv
+[9.120s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.dsv
+[9.120s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/packages/robot_firmware
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robot_firmware
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig.cmake
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig-version.cmake
+[9.121s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.xml
+[9.121s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_firmware

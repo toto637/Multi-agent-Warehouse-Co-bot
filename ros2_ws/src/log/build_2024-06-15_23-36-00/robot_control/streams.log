@@ -1,0 +1,80 @@
+[0.022s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake /home/adhamwalaa/ros2_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/adhamwalaa/ros2_ws/src/install/robot_control
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.712s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.791s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.797s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.847s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.950s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.063s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.090s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.150s] -- Looking for pthread.h
+[1.217s] -- Looking for pthread.h - found
+[1.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.283s] -- Found Threads: TRUE  
+[1.459s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.461s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.510s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.602s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.693s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.059s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.134s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.135s] -- Added test 'lint_cmake' to check CMake code style
+[2.136s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.137s] -- Added test 'xmllint' to check XML markup files
+[2.138s] -- Configuring done
+[2.142s] -- Generating done
+[2.144s] -- Build files have been written to: /home/adhamwalaa/ros2_ws/src/build/robot_control
+[2.152s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake /home/adhamwalaa/ros2_ws/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/adhamwalaa/ros2_ws/src/install/robot_control
+[2.153s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_control -- -j12 -l12
+[2.186s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_control -- -j12 -l12
+[2.206s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_control
+[2.211s] -- Install configuration: ""
+[2.211s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/config
+[2.211s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/config/gaz_ros2_ctl_usesim.yaml
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/config/my_controllers.yaml
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/launch
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/launch/controller_man.launch.py
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/launch/controller_manager1.launch.py
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/launch/my_controllers.launch.py
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/scripts
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/scripts/odom_wheels.py
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/scripts/cmd_vel_to_motor.py
+[2.212s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/scripts/ctl_robot.py
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/scripts/cmd_vl_to_motor.py
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/lib/robot_control/odom_wheels.py
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/lib/robot_control/cmd_vel_to_motor.py
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/lib/robot_control/cmd_vl_to_motor.py
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[2.213s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/environment/path.sh
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/environment/path.dsv
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/local_setup.bash
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/local_setup.sh
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/local_setup.zsh
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/local_setup.dsv
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/package.dsv
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[2.214s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[2.215s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_control/share/robot_control/package.xml
+[2.216s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_control

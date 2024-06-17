@@ -1,0 +1,185 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_firmware[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:14:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   14 | #include [01;35m[K"[m[Kstd_msgs/msg/int32.hpp
+      |          [01;35m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:14:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+   14 | #include [01;31m[K"std_msgs/msg/int32.hpp[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:6[m[K:
+[01m[K/usr/include/c++/11/cstddef:52:8:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   52 | extern [01;31m[K"C++"[m[K
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:18:46:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 | DiffBotSystemHardware::DiffBotSystemHardware([01;31m[K)[m[K
+      |                                              [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ does not have any field named ‘[01m[Kprev_position_right_[m[K’
+   20 |   [01;31m[Kprev_position_right_[m[K(0.0),
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:21:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ does not have any field named ‘[01m[Kprev_position_left_[m[K’
+   21 |   [01;31m[Kprev_position_left_[m[K(0.0)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:25:63:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kauto robot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()::<lambda>::operator()(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()::<lambda>[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     [this](const std_msgs::msg::Int64MultiArray::SharedPtr msg[01;31m[K)[m[K {
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In lambda function:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:26:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Int64MultiArray_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K>[m[K’
+   26 |       this->processFeedback([01;31m[Kmsg[m[K);
+      |                             [01;31m[K^~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kshared_ptr<std_msgs::msg::Int64MultiArray_<std::allocator<void> >>[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:44:74:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+   44 |   void processFeedback([01;36m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msg[m[K);
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:31:63:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kauto robot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()::<lambda>::operator()(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr) const[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()::<lambda>[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   31 |     [this](const std_msgs::msg::Int64MultiArray::SharedPtr msg[01;31m[K)[m[K {
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In lambda function:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:32:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Int64MultiArray_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K>[m[K’
+   32 |       this->processFeedback([01;31m[Kmsg[m[K);
+      |                             [01;31m[K^~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kshared_ptr<std_msgs::msg::Int64MultiArray_<std::allocator<void> >>[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:44:74:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+   44 |   void processFeedback([01;36m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msg[m[K);
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:38:47:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Krobot_firmware::DiffBotSystemHardware::~DiffBotSystemHardware()[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   38 | DiffBotSystemHardware::~DiffBotSystemHardware([01;31m[K)[m[K {}
+      |                                               [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:40:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+   40 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffBotSystemHardware::on_init(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:54:33:[m[K [01;31m[Kerror: [m[K‘[01m[KStateInterface[m[K’ is not a member of ‘[01m[Krobot_firmware::hardware_interface[m[K’; did you mean ‘[01m[Khardware_interface::StateInterface[m[K’?
+   54 | std::vector<hardware_interface::[01;31m[KStateInterface[m[K> DiffBotSystemHardware::export_state_interfaces()
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:22[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:5[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:116:7:[m[K [01;36m[Knote: [m[K‘[01m[Khardware_interface::StateInterface[m[K’ declared here
+  116 | class [01;36m[KStateInterface[m[K : public ReadOnlyHandle
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:54:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 | std::vector<hardware_interface::StateInterface[01;31m[K>[m[K DiffBotSystemHardware::export_state_interfaces()
+      |                                               [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:54:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:54:96:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kint robot_firmware::DiffBotSystemHardware::export_state_interfaces()[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 | std::vector<hardware_interface::StateInterface> DiffBotSystemHardware::export_state_interfaces([01;31m[K)[m[K
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:54:49:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint robot_firmware::DiffBotSystemHardware::export_state_interfaces()[m[K’
+   54 | std::vector<hardware_interface::StateInterface> [01;31m[KDiffBotSystemHardware[m[K::export_state_interfaces()
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:33:59:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> robot_firmware::DiffBotSystemHardware::export_state_interfaces()[m[K’
+   33 |   virtual std::vector<hardware_interface::StateInterface> [01;36m[Kexport_state_interfaces[m[K() override;
+      |                                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ defined here
+   21 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:67:33:[m[K [01;31m[Kerror: [m[K‘[01m[KCommandInterface[m[K’ is not a member of ‘[01m[Krobot_firmware::hardware_interface[m[K’; did you mean ‘[01m[Khardware_interface::CommandInterface[m[K’?
+   67 | std::vector<hardware_interface::[01;31m[KCommandInterface[m[K> DiffBotSystemHardware::export_command_interfaces()
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:22[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:5[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:126:7:[m[K [01;36m[Knote: [m[K‘[01m[Khardware_interface::CommandInterface[m[K’ declared here
+  126 | class [01;36m[KCommandInterface[m[K : public ReadWriteHandle
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:67:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 | std::vector<hardware_interface::CommandInterface[01;31m[K>[m[K DiffBotSystemHardware::export_command_interfaces()
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:67:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:67:100:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kint robot_firmware::DiffBotSystemHardware::export_command_interfaces()[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 | std::vector<hardware_interface::CommandInterface> DiffBotSystemHardware::export_command_interfaces([01;31m[K)[m[K
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:67:51:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint robot_firmware::DiffBotSystemHardware::export_command_interfaces()[m[K’
+   67 | std::vector<hardware_interface::CommandInterface> [01;31m[KDiffBotSystemHardware[m[K::export_command_interfaces()
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:34:61:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> robot_firmware::DiffBotSystemHardware::export_command_interfaces()[m[K’
+   34 |   virtual std::vector<hardware_interface::CommandInterface> [01;36m[Kexport_command_interfaces[m[K() override;
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ defined here
+   21 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:78:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+   78 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffBotSystemHardware::on_activate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:97:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+   97 | hardware_interface::[01;31m[KCallbackReturn[m[K DiffBotSystemHardware::on_deactivate(
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:107:98:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’ is not in namespace enclosing ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  107 | void DiffBotSystemHardware::processFeedback(const std_msgs::msg::Float32MultiArray::SharedPtr msg[01;31m[K)[m[K
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:116:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_left_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_left[m[K’?
+  116 |     if (current_position_left - [01;31m[Kprev_position_left_[m[K > 180) {
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcurrent_position_left[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:122:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_right_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_right[m[K’?
+  122 |     if (current_position_right - [01;31m[Kprev_position_right_[m[K > 180) {
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[Kcurrent_position_right[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:128:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_left_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_left[m[K’?
+  128 |     hw_positions_[0] = [01;31m[Kprev_position_left_[m[K + current_position_left;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcurrent_position_left[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:129:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_position_right_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position_right[m[K’?
+  129 |     hw_positions_[1] = [01;31m[Kprev_position_right_[m[K + current_position_right;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcurrent_position_right[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:139:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+  139 | hardware_interface::[01;31m[Kreturn_type[m[K DiffBotSystemHardware::read(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:146:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+  146 | hardware_interface::[01;31m[Kreturn_type[m[K DiffBotSystemHardware::write(
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:159[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:40:[m[K [01;31m[Kerror: [m[K‘[01m[KDiffBotSystemHardware[m[K’ in namespace ‘[01m[Krobot_firmware::robot_firmware[m[K’ does not name a type
+  160 | PLUGINLIB_EXPORT_CLASS(robot_firmware::[01;31m[KDiffBotSystemHardware[m[K, hardware_interface::SystemInterface)
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:83:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemInterface[m[K’ in namespace ‘[01m[Krobot_firmware::hardware_interface[m[K’ does not name a type
+  160 | PLUGINLIB_EXPORT_CLASS(robot_firmware::DiffBotSystemHardware, hardware_interface::[01;31m[KSystemInterface[m[K)
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[Krobot_firmware::{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  160 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+  160 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [38], const char [36])[m[K’
+  160 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:159[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void robot_firmware::class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:159[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  160 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:160:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  160 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(robot_firmware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

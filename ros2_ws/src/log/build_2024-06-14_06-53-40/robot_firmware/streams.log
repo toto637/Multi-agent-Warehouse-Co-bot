@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.109s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[2.414s] In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[2.415s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:17:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.415s]    17 |   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware)[01;35m[K;[m[K
+[2.415s]       |                                                       [01;35m[K^[m[K
+[2.415s]       |                                                       [31m[K-[m[K
+[2.485s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:22:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type robot_firmware::DiffBotSystemHardware::read()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[2.485s]    22 |   hardware_interface::return_type [01;31m[Kread[m[K() override;
+[2.485s]       |                                   [01;31m[K^~~~[m[K
+[2.485s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:23:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type robot_firmware::DiffBotSystemHardware::write()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[2.485s]    23 |   hardware_interface::return_type [01;31m[Kwrite[m[K() override;
+[2.485s]       |                                   [01;31m[K^~~~~[m[K
+[4.720s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[4.720s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[4.720s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[4.720s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:105[m[K:
+[4.720s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = robot_firmware::DiffBotSystemHardware; B = hardware_interface::SystemInterface][m[K’:
+[4.720s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[4.720s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’
+[4.720s]   218 |     return [01;31m[Knew C[m[K;
+[4.720s]       |            [01;31m[K^~~~~[m[K
+[4.720s] In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[4.720s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:14:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’:
+[4.721s]    14 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+[4.721s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.721s] In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:6[m[K,
+[4.721s]                  from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[4.721s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[4.721s]   175 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[4.721s]       |                       [01;36m[K^~~~[m[K
+[4.721s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[4.721s]   186 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[4.721s]       |                       [01;36m[K^~~~~[m[K
+[5.599s] gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+[5.599s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+[5.600s] gmake: *** [Makefile:146: all] Error 2
+[5.602s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adhamwalaa/autonav/src/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12

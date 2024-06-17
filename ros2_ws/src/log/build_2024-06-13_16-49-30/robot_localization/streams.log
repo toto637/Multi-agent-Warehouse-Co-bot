@@ -1,0 +1,20 @@
+[0.023s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_localization -- -j12 -l12
+[0.059s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_localization -- -j12 -l12
+[0.087s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_localization
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/environment/path.sh
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/environment/path.dsv
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/local_setup.bash
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/local_setup.sh
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/local_setup.zsh
+[0.094s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/local_setup.dsv
+[0.095s] -- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/package.dsv
+[0.095s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[0.095s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[0.095s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[0.095s] -- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_localization/share/robot_localization/package.xml
+[0.122s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/adhamwalaa/ros2_ws/src/build/robot_localization

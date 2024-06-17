@@ -1,0 +1,11 @@
+[0.026s] Invoking command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target diffbot_system[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/diffbot_system.dir/src/diffbot_system.cpp.o[0m
+[0.082s] [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdiffbot_system.hpp: No such file or directory
+[0.082s]     1 | #include [01;31m[K"diffbot_system.hpp"[m[K
+[0.082s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.082s] compilation terminated.
+[0.082s] gmake[2]: *** [CMakeFiles/diffbot_system.dir/build.make:76: CMakeFiles/diffbot_system.dir/src/diffbot_system.cpp.o] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffbot_system.dir/all] Error 2
+[0.083s] gmake: *** [Makefile:146: all] Error 2
+[0.089s] Invoked command in '/home/adhamwalaa/ros2_ws/src/build/robot_firmware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/adhamwalaa/ros2_ws/src/build/robot_firmware -- -j12 -l12

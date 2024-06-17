@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librobot_firmware.so[0m
+[100%] Built target robot_firmware
+-- Install configuration: ""
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/lib/librobot_firmware.so
+-- Set runtime path of "/home/adhamwalaa/ros2_ws/src/install/robot_firmware/lib/librobot_firmware.so" to ""
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include/robot_firmware
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/include/include/robot_firmware/diffbot_system.hpp
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/launch
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/config
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/diffbot_system_plugin.xml
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/library_path.sh
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/library_path.dsv
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/package_run_dependencies/robot_firmware
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/parent_prefix_path/robot_firmware
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.sh
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.sh
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/environment/path.dsv
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.bash
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.sh
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.zsh
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/local_setup.dsv
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.dsv
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/packages/robot_firmware
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robot_firmware
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig.cmake
+-- Up-to-date: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/cmake/robot_firmwareConfig-version.cmake
+-- Installing: /home/adhamwalaa/ros2_ws/src/install/robot_firmware/share/robot_firmware/package.xml

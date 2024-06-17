@@ -1,0 +1,49 @@
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:50:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   50 | }[01;31m[K [m[K // namespace autonav_firmware
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In constructor ‘[01m[Krobot_firmware::DiffBotSystemHardware::DiffBotSystemHardware()[m[K’:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:19:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ does not have any field named ‘[01m[Kprev_position_right_[m[K’
+   19 |   [01;31m[Kprev_position_right_[m[K(0.0),
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:20:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_firmware::DiffBotSystemHardware[m[K’ does not have any field named ‘[01m[Kprev_position_left_[m[K’
+   20 |   [01;31m[Kprev_position_left_[m[K(0.0)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In lambda function:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:25:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Int64MultiArray_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >[m[K>[m[K’
+   25 |       this->processFeedback([01;31m[Kmsg[m[K);
+      |                             [01;31m[K^~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kshared_ptr<std_msgs::msg::Int64MultiArray_<std::allocator<void> >>[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:43:74:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+   43 |   void processFeedback([01;36m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msg[m[K);
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K In lambda function:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ has no member named ‘[01m[KprocessVelFeedback[m[K’; did you mean ‘[01m[KprocessFeedback[m[K’?
+   31 |       this->[01;31m[KprocessVelFeedback[m[K(msg);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KprocessFeedback[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:[m[K At global scope:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:106:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+  106 | void [01;31m[KDiffBotSystemHardware[m[K::processFeedback(const std_msgs::msg::Int64MultiArray::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:43:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processFeedback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+   43 |   void [01;36m[KprocessFeedback[m[K(const std_msgs::msg::Float32MultiArray::SharedPtr msg);
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ defined here
+   20 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:114:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processVelFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+  114 | void [01;31m[KDiffBotSystemHardware[m[K::processVelFeedback(const std_msgs::msg::Int64MultiArray::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:114:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid robot_firmware::DiffBotSystemHardware::processVelFeedback(std_msgs::msg::Int64MultiArray_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/src/diffbot_system.cpp:1[m[K:
+[01m[K/home/adhamwalaa/ros2_ws/src/robot_firmware/include/robot_firmware/diffbot_system.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass robot_firmware::DiffBotSystemHardware[m[K’ defined here
+   20 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_firmware.dir/build.make:76: CMakeFiles/robot_firmware.dir/src/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_firmware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
