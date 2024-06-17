@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.gp.maw">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -21,9 +22,7 @@
         <activity
             android:name=".DestLoadingActivity"
             android:exported="true" />
-        <activity
-            android:name=".WaitingActivity"
-            android:exported="true" />
+
         <activity
             android:name=".DestActivity"
             android:exported="true" />
@@ -41,9 +40,10 @@
         </activity>
         <activity
             android:name="QRNeededClasses.CaptureAct"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
-            android:theme="@style/zxing_CaptureTheme" />
+            android:theme="@style/zxing_CaptureTheme"
+            tools:ignore="DiscouragedApi" />
     </application>
 
 </manifest>
