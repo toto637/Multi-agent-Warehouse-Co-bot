@@ -1,0 +1,59 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/thomas_medhat/ros2_ws/install/robot_firmware/include/**",
+        "/home/thomas_medhat/ros2_ws/install/micro_ros_agent/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/thomas_medhat/ros2_ws/src/bot_nav/include/**",
+        "/home/thomas_medhat/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/thomas_medhat/ros2_ws/src/micro-ROS-Agent/micro_ros_agent/include/**",
+        "/home/thomas_medhat/ros2_ws/src/robot_control/include/**",
+        "/home/thomas_medhat/ros2_ws/src/robot_description/include/**",
+        "/home/thomas_medhat/ros2_ws/src/robot_firmware/include/**",
+        "/home/thomas_medhat/ros2_ws/src/robot_nav/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/control_toolbox/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/gz_ros2_control/ign_ros2_control/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/kinematics_interface/kinematics_interface_kdl/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/realtime_tools/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/controller_interface/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/controller_manager/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/hardware_interface/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/joint_limits/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/ros2_control_test_assets/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_control/transmission_interface/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/ackermann_steering_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/admittance_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/bicycle_steering_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/diff_drive_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/effort_controllers/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/force_torque_sensor_broadcaster/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/forward_command_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/gripper_controllers/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/imu_sensor_broadcaster/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/position_controllers/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/range_sensor_broadcaster/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/steering_controllers_library/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/tricycle_steering_controller/include/**",
+        "/home/thomas_medhat/ros2_ws/src/ros-controls/ros2_controllers/velocity_controllers/include/**",
+        "/home/thomas_medhat/ros2_ws/src/rplidar_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

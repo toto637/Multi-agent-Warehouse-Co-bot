@@ -29,7 +29,7 @@ import HelperClasses.VolleySingleton;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String api_address = "http://192.168.1.10:8000/";
+    public static final String api_address = "http://192.168.43.79:8000/";
     public final List<String> locations = new ArrayList<>();
 
     @Override
